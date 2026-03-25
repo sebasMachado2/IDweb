@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.input-section {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: #eef2f7;
+    border-radius: 6px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#resultado {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tabla {
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 6px;
+    min-width: 140px;
+    background-color: #fff;
+}
+
+.tabla h3 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.linea {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #555;
+}
