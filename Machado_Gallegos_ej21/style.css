@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+.formulario {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.botones {
+    margin-top: 20px;
+}
+
+button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}
